@@ -1,0 +1,13 @@
+{
+  "root": true,
+  "extends": [
+    "@bonniernews/eslint-config/typescript"
+  ],
+  "rules": {
+    "no-restricted-syntax": [
+      "off"
+    ],
+    "no-shadow": "off",
+    "@typescript-eslint/no-shadow": "warn"
+  }
+}

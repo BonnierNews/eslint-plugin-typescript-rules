@@ -1,0 +1,49 @@
+{
+  "name": "@bonniernews/eslint-plugin-typescript-rules",
+  "version": "0.9.0",
+  "description": "ESLint Plugin for preventing non ecmascript compatible patterns in Typescript",
+  "main": "lib/index.js",
+  "scripts": {
+    "test": "mocha && eslint .",
+    "lint": "eslint .",
+    "update:eslint-docs": "eslint-doc-generator"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/BonnierNews/eslint-plugin-typescript-rules"
+  },
+  "keywords": [
+    "eslint",
+    "eslint-plugin",
+    "eslintplugin",
+    "bonniernews",
+    "javascript"
+  ],
+  "contributors": [],
+  "devDependencies": {
+    "@bonniernews/eslint-config": "^1.0.0",
+    "@typescript-eslint/rule-tester": "^6.8.0",
+    "eslint": "^8.19.0",
+    "mocha": "^10.2.0",
+    "typescript": "^5.2.0"
+  },
+  "peerDependencies": {
+    "eslint": ">=7",
+    "typescript": ">=5.1.0"
+  },
+  "peerDependenciesMeta": {
+    "typescript": {
+      "optional": true
+    }
+  },
+  "engines": {
+    "node": ">=16"
+  },
+  "license": "MIT",
+  "files": [
+    "lib/*",
+    "README.md",
+    "CHANGELOG.md",
+    "LICENSE"
+  ]
+}
