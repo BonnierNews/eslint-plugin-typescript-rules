@@ -19,7 +19,8 @@
     "eslint-plugin",
     "eslintplugin",
     "bonniernews",
-    "javascript"
+    "javascript",
+    "typescript"
   ],
   "contributors": [],
   "devDependencies": {
