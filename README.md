@@ -1,5 +1,7 @@
 # Eslint plugin typescript rules
 
+[![Tests](https://github.com/BonnierNews/eslint-plugin-typescript-rules/actions/workflows/run-tests.yml/badge.svg)](https://github.com/BonnierNews/eslint-plugin-typescript-rules/actions/workflows/run-tests.yml)
+
 A plugin for enforcing some Javascript best practices when using Typescript as "typed" Javascript. This plugin can also be used together with Javascript to prevent the usage of Class extends. 
 
 ## Usage
