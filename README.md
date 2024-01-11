@@ -6,7 +6,7 @@ A plugin for enforcing some Javascript best practices when using Typescript as "
 
 ## Usage
 
-Install `eslint` and the plugin `npm i eslint eslint-plugin-typescript-rules --save-dev`
+Install `eslint` and the plugin `npm i eslint @bonniernews/eslint-plugin-typescript-rules --save-dev`
 
 Add `typescript-rules` to the plugins section of your .eslintrc configuration file. You can omit the eslint-plugin- prefix:
 
