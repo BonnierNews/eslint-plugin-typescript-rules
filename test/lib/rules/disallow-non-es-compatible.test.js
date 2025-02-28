@@ -2,10 +2,11 @@
 
 const rule = require("../../../lib/rules/disallow-non-es-compatible");
 const RuleTester = require("@typescript-eslint/rule-tester").RuleTester;
+const parser = require("@typescript-eslint/parser");
 const after = require("mocha").after;
 RuleTester.afterAll = after;
 
-const ruleTester = new RuleTester({ parser: require.resolve("@typescript-eslint/parser") });
+const ruleTester = new RuleTester({ languageOptions: { parser } });
 
 ruleTester.run("disallow-non-es-compatible", rule, {
   valid: [

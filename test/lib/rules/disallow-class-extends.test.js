@@ -3,7 +3,7 @@
 const rule = require("../../../lib/rules/disallow-class-extends");
 const RuleTester = require("eslint").RuleTester;
 
-const ruleTester = new RuleTester({ parserOptions: { ecmaVersion: 2015 } });
+const ruleTester = new RuleTester({ languageOptions: { ecmaVersion: 2015 } });
 ruleTester.run("disallow-class-extends", rule, {
   valid: [
     { code: "class Foo{}" },
