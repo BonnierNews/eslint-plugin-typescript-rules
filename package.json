@@ -1,6 +1,6 @@
 {
   "name": "@bonniernews/eslint-plugin-typescript-rules",
-  "version": "1.0.0-alpha.0",
+  "version": "1.0.0",
   "description": "ESLint Plugin for preventing non ecmascript compatible patterns in Typescript",
   "main": "lib/index.js",
   "scripts": {
@@ -26,7 +26,7 @@
   ],
   "contributors": [],
   "devDependencies": {
-    "@bonniernews/eslint-config": "^2.0.0-alpha.0",
+    "@bonniernews/eslint-config": "^2.0.0",
     "@typescript-eslint/rule-tester": "^8.23.0",
     "eslint": "^9.20.0",
     "eslint-doc-generator": "^2.0.2",
