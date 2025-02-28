@@ -1,3 +1,3 @@
 "use strict";
 
-module.exports = require("@bonniernews/eslint-config/typescript");
+module.exports = require("@bonniernews/eslint-config/ts");
