@@ -55,3 +55,7 @@ To enable this configuration use the extends property in your .eslintrc config f
 ## License
 
 Released under the [MIT license](https://tldrlegal.com/license/mit-license).
+
+## Contributing
+
+Bumping the version in package.json will automatically publish to NPM and GitHub
